@@ -427,6 +427,16 @@ def check_for_cairo():
         print_status("Cairo", cairo.version)
         return True
 
+def check_for_opengl():
+    try:
+        import OpenGL
+    except ImportError:
+        print_status("OpenGL", "no")
+        return False
+    else:
+        print_status("OpenGL", OpenGL.__version__)
+        return True
+
 def check_for_datetime():
     try:
         import datetime
