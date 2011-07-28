@@ -23,7 +23,7 @@ from matplotlib.colors import is_color_like
 # The capitalized forms are needed for ipython at present; this may
 # change for later versions.
 
-interactive_bk = ['GTK', 'GTKAgg', 'GTKCairo', 'FltkAgg', 'MacOSX',
+interactive_bk = ['GTK', 'GTKAgg', 'GTKCairo', 'FltkAgg', 'MacOSX', 'glut',
                   'QtAgg', 'Qt4Agg', 'TkAgg', 'WX', 'WXAgg', 'CocoaAgg']
 
 
